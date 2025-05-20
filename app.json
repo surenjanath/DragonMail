@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "DragonMail",
+    "slug": "dragonmail",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/main_logo.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "jsEngine": "jsc",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4A90E2"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/main_logo.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/main_logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.surenjanath_singh.dragonmail"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "17c93c1e-166d-4d7d-be58-8940382e3cfd"
+      }
+    }
+  }
+}
